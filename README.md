@@ -6,7 +6,7 @@ Documentation: https://help.syncfusion.com/maui/combobox/getting-started
 
 ### Adding the .NET MAUI ComboBox control
 
-Step 1: Add the NuGet to the project and add the namespace as shown in the following code sample:
+**Step 1**: Add the NuGet to the project and add the namespace as shown in the following code sample:
 
 **[XAML]**
 ```
@@ -18,7 +18,7 @@ Step 1: Add the NuGet to the project and add the namespace as shown in the follo
     using Syncfusion.Maui.Inputs;
 ```
 
-Step 2: Set the ComboBox control to content in `ContentPage.`
+**Step 2**: Set the ComboBox control to content in `ContentPage.`
 
 **[XAML]**
 ```
@@ -34,6 +34,74 @@ SfComboBox comboBox = new SfComboBox();
 Content = comboBox;  
 ```
 
+### Populating items using data binding
+
+**Step 1**: Define a simple model class SocialMedia with fields ID and name, and then populate social media data in the ViewModel.
+
+```
+//Model.cs
+public class SocialMedia
+{
+    public string Name { get; set; }
+    public int ID { get; set; }
+}
+
+//ViewModel.cs
+public class SocialMediaViewModel
+{
+    public ObservableCollection<SocialMedia> SocialMedias { get; set; }
+    public SocialMediaViewModel()
+    {
+        this.SocialMedias = new ObservableCollection<SocialMedia>();
+        this.SocialMedias.Add(new SocialMedia() { Name = "Facebook", ID = 0 });
+        this.SocialMedias.Add(new SocialMedia() { Name = "Google Plus", ID = 1 });
+        this.SocialMedias.Add(new SocialMedia() { Name = "Instagram", ID = 2 });
+        this.SocialMedias.Add(new SocialMedia() { Name = "LinkedIn", ID = 3 });
+        this.SocialMedias.Add(new SocialMedia() { Name = "Skype", ID = 4 });
+        this.SocialMedias.Add(new SocialMedia() { Name = "Telegram", ID = 5 });
+        this.SocialMedias.Add(new SocialMedia() { Name = "Televzr", ID = 6 });
+        this.SocialMedias.Add(new SocialMedia() { Name = "Tik Tok", ID = 7 });
+        this.SocialMedias.Add(new SocialMedia() { Name = "Tout", ID = 8 });
+        this.SocialMedias.Add(new SocialMedia() { Name = "Tumblr", ID = 9 });
+        this.SocialMedias.Add(new SocialMedia() { Name = "Twitter", ID = 10 });
+        this.SocialMedias.Add(new SocialMedia() { Name = "Vimeo", ID = 11 });
+        this.SocialMedias.Add(new SocialMedia() { Name = "WhatsApp", ID = 12 });
+        this.SocialMedias.Add(new SocialMedia() { Name = "YouTube", ID = 13 });
+    }
+}
+```
+
+**Step 2**: Populate data in `ComboBox`.
+
+**[XAML]**
+
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:editors="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
+             xmlns:local="clr-namespace:ComboBoxSample"             
+             x:Class="ComboBoxSample.MainPage">
+
+       <ContentPage.BindingContext>
+            <local:SocialMediaViewModel />
+       </ContentPage.BindingContext>
+
+       <ContentPage.Content>
+            <!--Setting ItemsSource-->
+            <editors:SfComboBox x:Name="comboBox" 
+                                WidthRequest="250"
+                                ItemsSource="{Binding SocialMedias}" />
+        </ContentPage.Content>
+</ContentPage>
+```
+
+**[C#]**
+```
+SocialMediaViewModel socialMediaViewModel = new SocialMediaViewModel();
+comboBox.BindingContext = socialMediaViewModel;
+comboBox.ItemsSource = SocialMediaViewModel.SocialMedias;
+```
 ## Project pre-requisites
 
 Make sure that you have the compatible versions of Visual Studio with .NET MAUI workloads and .NET SDK version in your machine before starting to work on this project. Refer to [System Requirements for .NET MAUI](https://help.syncfusion.com/maui/system-requirements).
