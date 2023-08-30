@@ -36,7 +36,7 @@ Content = comboBox;
 
 ### Populating items using data binding
 
-**Step 1**: Define a simple model class SocialMedia with fields ID and name, and then populate social media data in the ViewModel.
+**Step 1**: Create a model class named SocialMedia that contains information such as social media's ID and name. And generate the collection of social media data in the ViewModel class.
 
 ```
 //Model.cs
@@ -71,7 +71,7 @@ public class SocialMediaViewModel
 }
 ```
 
-**Step 2**: Populate data in `ComboBox`.
+**Step 2**: Binding the SocialMedias property to the ItemsSource property of `ComboBox`.
 
 **[XAML]**
 
@@ -96,12 +96,6 @@ public class SocialMediaViewModel
 </ContentPage>
 ```
 
-**[C#]**
-```
-SocialMediaViewModel socialMediaViewModel = new SocialMediaViewModel();
-comboBox.BindingContext = socialMediaViewModel;
-comboBox.ItemsSource = SocialMediaViewModel.SocialMedias;
-```
 ## Project pre-requisites
 
 Make sure that you have the compatible versions of Visual Studio with .NET MAUI workloads and .NET SDK version in your machine before starting to work on this project. Refer to [System Requirements for .NET MAUI](https://help.syncfusion.com/maui/system-requirements).
