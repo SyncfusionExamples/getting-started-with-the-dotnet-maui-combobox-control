@@ -1,8 +1,5 @@
 # Getting Started with the .NET MAUI ComboBox Control
-
-A quick start .NET MAUI project that shows how to create and configure the Syncfusion MAUI ComboBox control to a .NET MAUI app. This project also includes a code snippet to populate the control’s data source, set a custom height and width to the control, customize placeholder text, change the filter type, and hide clear button.  
-
-Documentation: https://help.syncfusion.com/maui/combobox/getting-started
+The [.NET MAUI ComboBox](https://www.syncfusion.com/maui-controls/maui-combobox?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples) control is a selection component that allows users to type a value or choose an option from a list of predefined options. This article shows how to create and configure the Syncfusion .NET MAUI ComboBox control. This project also includes a code snippet to populate the control’s data source, set a custom height and width to the control, customize placeholder text, change the filter type, and hide clear button.  
 
 ### Adding the .NET MAUI ComboBox control
 
@@ -111,3 +108,50 @@ If you are facing path too long exception when building this example project, cl
 ## License
 
 Syncfusion has no liability for any damage or consequence that may arise by using or viewing the samples. The samples are for demonstrative purposes, and if you choose to use or access the samples, you agree to not hold Syncfusion liable, in any form, for any damage that is related to use, for accessing, or viewing the samples. By accessing, viewing, or seeing the samples, you acknowledge and agree Syncfusion’s samples will not allow you seek injunctive relief in any form for any claim related to the sample. If you do not agree to this, do not view, access, utilize, or otherwise do anything with Syncfusion’s samples.
+
+## Features and Benefits
+### Placeholder
+Display placeholder text inside the control until the user enters text.
+
+### Filtering
+The ComboBox filters items based on the entered text and auto-fills with the first suggestion.
+
+### Searching
+Highlights the matching item in the drop-down list based on the provided input.
+
+### Editable mode
+Editable and non-editable text boxes to select items from the given data source.
+
+## Related links
+[Learn More about .NET MAUI Combobox](https://www.syncfusion.com/maui-controls/maui-combobox?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)
+
+[Download Free Trial](https://www.syncfusion.com/downloads/maui?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)
+
+[Pricing](https://www.syncfusion.com/sales/teamlicense?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)
+
+[Documentation](https://help.syncfusion.com/maui/combobox/getting-started?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)
+
+[View Demos](https://github.com/SyncfusionExamples/getting-started-with-the-dotnet-maui-combobox-control.git?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)
+
+[Community Forums](https://www.syncfusion.com/forums/maui?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)
+
+[Suggest a feature or report a bug](https://www.syncfusion.com/feedback/maui?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)
+
+[Online example](https://github.com/syncfusion/maui-demos/tree/master/MAUI/Inputs/SampleBrowser.Maui.Inputs/Samples/ComboBox?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)
+
+[Knowledge base](https://support.syncfusion.com/kb?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)
+
+## About Syncfusion .NET MAUI Controls
+
+Syncfusion's [.NET MAUI UI Controls](https://www.syncfusion.com/maui-controls?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples) library is the only suite that you will ever need to build an application since it contains over 40 high-performance, lightweight, modular, and responsive UI Controls in a single package. In addition to Combobox, we provide popular .NET MAUI Controls such as [DataGrid](https://www.syncfusion.com/maui-controls/maui-datagrid?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)[Charts](https://www.syncfusion.com/maui-controls/maui-cartesian-charts?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), [Scheduler](https://www.syncfusion.com/maui-controls/maui-scheduler?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), [ListView](https://www.syncfusion.com/maui-controls/maui-listview?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), and [Excel Library](https://www.syncfusion.com/document-processing/excel-framework/maui?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples).
+
+### About Syncfusion
+Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion has more than 29,000 customers and more than 1 million users, including large financial institutions, Fortune 500 companies, and global IT consultancies.
+
+Today, we provide 1800+ components and frameworks for web ([Blazor](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), [ASP.NET Core](https://www.syncfusion.com/aspnet-core-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), [ASP.NET MVC](https://www.syncfusion.com/aspnet-mvc-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), [ASP.NET WebForms](https://www.syncfusion.com/jquery/aspnet-webforms-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), [JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), [Angular](https://www.syncfusion.com/angular-components?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), [React](https://www.syncfusion.com/react-components?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), [Vue](https://www.syncfusion.com/vue-components?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), and [Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)), mobile ([Xamarin](https://www.syncfusion.com/xamarin-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), [Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), [UWP](https://www.syncfusion.com/uwp-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), [JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), and [.NET MAUI](https://www.syncfusion.com/maui-controls?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)), and desktop development ([WinForms](https://www.syncfusion.com/winforms-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), [WPF](https://www.syncfusion.com/wpf-controls?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), [WinUI](https://www.syncfusion.com/winui-controls?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples),[UWP](https://www.syncfusion.com/uwp-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), [Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples), and [.NET MAUI](https://www.syncfusion.com/maui-controls?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)). We provide ready-to-deploy enterprise software for dashboards, reports, data integration, and big data processing. Many customers have saved millions in licensing fees by deploying our software.
+
+<hr style="height:0.3px;border:none;color:lightgrey;background-color:lightgrey;" />
+
+<p align="center">
+<a href="mailto:sales@syncfusion.com?Subject=Syncfusion .NET MAUI Combobox - GitHub" target="_top">sales@syncfusion.com</a> | <a href="https://www.syncfusion.com?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples">www.syncfusion.com</a> | Toll Free: 1-888-9 DOTNET <br>
+</p>
