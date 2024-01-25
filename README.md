@@ -113,16 +113,16 @@ Syncfusion has no liability for any damage or consequence that may arise by usin
 ## Features and Benefits
 
 ### Selection
-Users can select an item, or multiple items, from the list of options by tapping or clicking it.
+Users can select an item, or [multiple](https://help.syncfusion.com/maui/combobox/selection#multiple-selection?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples) items, from the list of options by tapping or clicking it.
 
 ### Searching
 The first item that fits the user input is highlighted in the dropdown list. Highlighting matching text in the ComboBox dropdown list makes it easy for users to identify and select the items they are looking for at a glance.
 
 ### Placeholder
-Display hints using placeholder text when no item is selected. A well-designed placeholder enhances the user experience by providing context and making the control more intuitive.
+Display hints using [placeholder](https://help.syncfusion.com/maui/combobox/ui-customization#placeholder?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples) text when no item is selected. A well-designed placeholder enhances the user experience by providing context and making the control more intuitive.
 
 ### Filtering
-The ComboBox filters items based on the entered text and auto-fills with the first suggestion.
+The ComboBox [filters](https://help.syncfusion.com/maui/combobox/filtering?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples) items based on the entered text and auto-fills with the first suggestion.
 
 ### Data binding
 Data-binding support works for all popular data sources and displays data based on the display member path. It automatically generates items from a data-bound collection. The application can be designed in the MVVM pattern.
