@@ -158,4 +158,3 @@ Today, we provide 1800+ components and frameworks for web ([Blazor](https://www.
 <p align="center">
 <a href="mailto:sales@syncfusion.com?Subject=Syncfusion .NET MAUI ComboBox - GitHub" target="_top">sales@syncfusion.com</a> | <a href="https://www.syncfusion.com?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples">www.syncfusion.com</a> | Toll Free: 1-888-9 DOTNET <br>
 </p>
-Footer
