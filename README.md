@@ -136,7 +136,7 @@ Data-binding support works for all popular data sources and displays data based 
 
 [Documentation](https://help.syncfusion.com/maui/combobox/getting-started?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)
 
-[View Demos](https://github.com/SyncfusionExamples/getting-started-with-the-dotnet-maui-combobox-control.git?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)
+[View Demos](https://github.com/SyncfusionExamples/getting-started-with-the-dotnet-maui-combobox-control?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)
 
 [Community Forums](https://www.syncfusion.com/forums/maui?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples)
 
