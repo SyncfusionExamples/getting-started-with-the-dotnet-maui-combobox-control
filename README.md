@@ -96,7 +96,7 @@ public class SocialMediaViewModel
 
 ## Project pre-requisites
 
-Make sure that you have the compatible versions of Visual Studio with .NET MAUI workloads and .NET SDK version in your machine before starting to work on this project. Refer to [System Requirements for .NET MAUI](https://help.syncfusion.com/maui/system-requirements).
+Make sure that you have the compatible versions of Visual Studio with .NET MAUI workloads and .NET SDK version in your machine before starting to work on this project. Refer to [System Requirements for .NET MAUI](https://help.syncfusion.com/maui/system-requirements?utm_source=github&utm_medium=listing&utm_campaign=maui-combobox-github-samples).
 
 ## How to run this application?
 
